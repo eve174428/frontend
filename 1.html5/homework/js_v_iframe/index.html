@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/mycss.css">
+    <title>07童榮香</title>
+    <script src="js/myJS.js"></script>
+</head>
+
+<body>
+    <!-- nav -->
+    <div class="navbar-h">
+        <ul class="nav-ul-h alignCenter">
+            <li class="nav-il-h"><a class="nav-link" href="home.html"><img src="images/logo.png" width="100px"
+                        height="100px"></a></li>
+            <li class="nav-il-h"><a class="a-white" href="#" onclick="changeContent('home')">首頁</a></li>
+            <li class="nav-il-h"><a class="a-white" href="#" onclick="changeContent('about')">關於我</a></li>
+            <li class="nav-il-h"><a class="a-white" href="#" onclick="changeContent('contact')">聯絡我</a></li>
+            <li class="nav-il-h"><a class="a-white" href="#" onclick="changeContent('link')">好站連結</a></li>
+            <li class="nav-il-h"><a class="a-white" href="#" onclick="changeContent('suggestion')">意見週查表</a></li>
+        </ul>
+    </div>
+    <!-- vertical nav -->
+    <div class="row">
+        <div class="col">
+            <ul class="nav-ul-v">
+                <li class="nav-il-v"><a class="a-black" href="#" onclick="changeContent('home')">首頁</a></li>
+                <li class="nav-il-v"><a class="a-black" href="#" onclick="changeContent('about')">關於我</a></li>
+                <li class="nav-il-v"><a class="a-black" href="#" onclick="changeContent('contact')">聯絡我</a></li>
+                <li class="nav-il-v"><a class="a-black" href="#" onclick="changeContent('link')">好站連結</a></li>
+                <li class="nav-il-v"><a class="a-black" href="#" onclick="changeContent('suggestion')">意見週查表</a></li>
+            </ul>
+        </div>
+        <!-- content -->
+        <div>
+            <iframe id="content" scrolling="auto" src="homePage.html"></iframe>
+        </div>
+    </div>
+
+</body>
+
+</html>

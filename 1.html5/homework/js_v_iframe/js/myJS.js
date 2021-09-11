@@ -2,7 +2,7 @@ function changeContent(file) {
 switch (file) {
     case 'home':
         document.getElementById("content").contentWindow.location.reload();
-        document.getElementById("content").src ="homePage.html" ;
+        document.getElementById("content").src ="home.html" ;
         document.title = "首頁";
         break;
     case 'about':
