@@ -1,28 +1,27 @@
 ~~~mermaid
-  gantt
+      gantt
         dateFormat  YYYY-MM-DD
-        title Adding GANTT diagram functionality to mermaid
+        title 親子遊iOS App
 
-        section A section
-        Completed task            :done,    des1, 2014-01-06,2014-01-08
-        Active task               :active,  des2, 2014-01-09, 3d
+        section UI
+        構思整合                    :active, des1, 2021-10-18,3d
+        prototype                  :active,  des2, 2021-10-19,5d
         Future task               :         des3, after des2, 5d
-        Future task2               :         des4, after des3, 5d
-        section Critical tasks
-        Completed task in the critical line :crit, done, 2014-01-06,24h
+        Future task2              :         des4, after des3, 5d
+
+        section Frontend
+        coding :crit, done, 2021-10-19,20d
         Implement parser and jison          :crit, done, after des1, 2d
         Create tests for parser             :crit, active, 3d
         Future task in critical line        :crit, 5d
         Create tests for renderer           :2d
         Add to mermaid                      :1d
 
-        section Documentation
+        section Backend
         Describe gantt syntax               :active, a1, after des1, 3d
         Add gantt diagram to demo page      :after a1  , 20h
         Add another diagram to demo page    :doc1, after a1  , 48h
 
-        section Last section
+        section UX
         Describe gantt syntax               :after doc1, 3d
-        Add gantt diagram to demo page      : 20h
-        Add another diagram to demo page    : 48h
 ~~~
